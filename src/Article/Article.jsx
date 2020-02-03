@@ -40,7 +40,7 @@ const Article = () => {
             <section>
               <h1>The history of the Statue of Liberty</h1>
               <p>
-              Not only is the Statue of Liberty the symbol of New York City, she is also a UNESCO World Heritage site under the designation of _Outstanding Universal Value_.
+              Not only is the Statue of Liberty the symbol of New York City, she is also a UNESCO World Heritage site under the designation of <i>Outstanding Universal Value</i>.
               </p>
 
               <p>
@@ -78,23 +78,19 @@ const Article = () => {
               <h1>Some facts about the Statue of Liberty</h1>
               <ul>
                 <li>
-                  <cite id="cite-1">Total overall height from the base of the pedestal foundation to the tip of the torch is <b>305 feet, 6 inches</b>
-                  </cite>
+                  Total overall height from the base of the pedestal foundation to the tip of the torch is <b>305 feet, 6 inches</b>
                 </li>
 
                 <li>
-                  <cite id="cite-2">Height of the Statue from her heel to the top of her head is 111 feet, 6 inches
-                  </cite>
+                  Height of the Statue from her heel to the top of her head is 111 feet, 6 inches
                 </li>
 
                 <li>
-                  <cite id="cite-3">The Statue has a <b>35-foot</b> waistline
-                  </cite>
+                  The Statue has a <b>35-foot</b> waistline
                 </li>
 
                 <li>
-                  <cite id="cite-4">Total weight of the Statue of Liberty is <b>225 tons (or 450,000 pounds)</b>
-                  </cite>
+                  Total weight of the Statue of Liberty is <b>225 tons (or 450,000 pounds)</b>
                 </li>
               </ul>
             </section>
