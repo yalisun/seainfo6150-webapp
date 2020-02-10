@@ -1,0 +1,18 @@
+.header {
+    color: #cc0000;
+    font-size: 40px;
+}
+
+.body {
+    border: 3px solid #cc0000;
+    background: #eeeeee;
+}
+
+.page {
+    font-weight: normal;
+}
+
+.time {
+    font-weight: bold;
+    font-size: 20px;
+}
