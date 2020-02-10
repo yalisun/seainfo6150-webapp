@@ -1,3 +1,6 @@
 .container {
     background: #999999;
+    border: 2px dashed #6c6c6c;
+    margin: 3rem;
+    padding: 1rem;
 }
