@@ -1,26 +1,26 @@
-html {
-    font-size: 12px;
-  }
-
-section{
-    padding-inline-start: 15rem;
-    padding-bottom: 2rem;
-}
-
-body{
+.flexContainer {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    min-height: 100%;
     font-family: Helvetica;
-    padding: 1rem;
+    font-size: 10px;
 }
+
 
 h1 {
     color: CRIMSON;
-    font-size: 40px;
-    margin: 0;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-left: 10px;
+
 }
 
 time {
     font-weight: bold;
     font-size: 15px;
+    margin-left: 10px;
+
 }
 
 #button{
@@ -31,6 +31,7 @@ time {
 
 p {
     font-size: 20px; 
+    margin-left: 10px;
 }
 
 
