@@ -34,9 +34,13 @@ p {
     margin-left: 10px;
 }
 
+.image{
+    text-align: center;
+}
+
 @media (min-width: 500px) {
     h1{
-        font-size: 25px;
+        font-size: 20px;
     }
     .flexContainer{
         font-size: 18px;
@@ -49,4 +53,38 @@ p {
     }
 }
 
+@media (min-width: 600px) {
+    h1{
+        font-size: 25px;
+    }
+    .flexContainer{
+        font-size: 20px;
+        display: flex;
+        justify-content: space-between;
+        flex-flow: 100%;
+    }
+    time {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .image{
+        text-align: left;
+    }
+    h1 {
+        font-size: 30px;
+    }
+
+    .flexContainer{
+        font-size: 15px;
+        display: flex;
+        justify-content: space-between;
+        flex-flow: column nowrap;
+        min-height: 100%;
+    }
+    time{
+        font-size: 10px;
+    }
+}
   
