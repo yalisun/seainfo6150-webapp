@@ -1,90 +1,86 @@
-.flexContainer {
-    display: flex;
-    flex-flow: column nowrap;
+.container {
+    background: #eee;
+    border: 1px solid #c00;
+    padding: 10px;
+    border-radius: 10px;
+    background-image: linear-gradient( to right, #c9676e, white 20% );
+    box-shadow: 0 10px 8px 0 #5a5858;
     justify-content: space-between;
-    min-height: 100%;
-    font-family: Helvetica;
+    flex-flow: column nowrap;
+    display: flex;
+}
+
+.article {
+    vertical-align: middle;
+    margin-bottom: 1rem;
+    font-size: 12px;
+}
+
+
+.title {
+    color: #c00;
+    font-size: 25px;
+    margin-bottom: 1rem;
+}
+
+.pubDate {
+    font-weight: bold;
     font-size: 10px;
 }
 
-
-h1 {
-    color: CRIMSON;
-    font-size: 30px;
-    margin-top: 40px;
-    margin-left: 10px;
-
-}
-
-time {
-    font-weight: bold;
-    font-size: 15px;
-    margin-left: 10px;
-
-}
-
-#button{
-    overflow:hidden;
-    background: red;
-    position: relative;
-}
-
-p {
-    font-size: 20px; 
-    margin-left: 10px;
-}
-
-.image{
-    text-align: center;
+@media (min-width: 350px) {
+    .article {
+        margin-bottom: 2rem;
+        font-size: 24px;
+    }
+    
+    
+    .title {
+        color: #c00;
+        font-size: 50px;
+        margin-bottom: 2rem;
+    }
+    
+    .pubDate {
+        font-size: 20px;
+    }
 }
 
 @media (min-width: 500px) {
-    h1{
+    .article {
+        margin-bottom: 1.8rem;
         font-size: 20px;
     }
-    .flexContainer{
+    
+    
+    .title {
+        color: #c00;
+        font-size: 40px;
+        margin-bottom: 1.8rem;
+    }
+    
+    .pubDate {
         font-size: 18px;
-        display: flex;
-        flex-flow: column nowrap;
-        min-height: 100%;
-    }
-    time {
-        font-size: 13px;
     }
 }
 
-@media (min-width: 600px) {
-    h1{
-        font-size: 25px;
+@media (min-width: 800px) {
+    .article {
+        margin-bottom: 1.5rem;
+        font-size: 18px;
     }
-    .flexContainer{
-        font-size: 20px;
-        display: flex;
-        justify-content: space-between;
-        flex-flow: 100%;
+    
+    
+    .title {
+        color: #c00;
+        font-size: 35px;
+        margin-bottom: 1.5rem;
     }
-    time {
-        font-size: 10px;
-    }
-}
-
-@media (min-width: 1000px) {
-    .image{
-        text-align: left;
-    }
-    h1 {
-        font-size: 30px;
-    }
-
-    .flexContainer{
+    
+    .pubDate {
         font-size: 15px;
-        display: flex;
-        justify-content: space-between;
-        flex-flow: column nowrap;
-        min-height: 100%;
-    }
-    time{
-        font-size: 10px;
     }
 }
+
+
   

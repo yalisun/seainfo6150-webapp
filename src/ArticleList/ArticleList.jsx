@@ -1,18 +1,20 @@
 import React from "react";
 import PropTypes from 'prop-types'
 import ArticleListItem from "./ArticleListItem";
-import "./ArticleList.module.css";
+// import "./ArticleList.module.css";
+import styles from "./ArticleList.module.css";
+
 
 const ArticleList = props => {
-  return (
-    <ul>
-      {props.articles.map(article => (
-        <li key={article.slug}>
-          <ArticleListItem article={article} />
-        </li>
-      ))}
-    </ul>
-  );
+return (
+  <ul className={styles.container}>
+    {props.articles.map(article => (
+      <li className={styles.content} key={article.slug}>
+        <ArticleListItem article={article} />
+      </li>
+    ))}
+  </ul>
+);
 };
 
 ArticleList.propTypes = {

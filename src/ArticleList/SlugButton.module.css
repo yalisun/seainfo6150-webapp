@@ -5,22 +5,29 @@ button {
     border-radius: 5px;
     padding: 10px;
     text-align: center;
-    font-size: medium;
+    font-size: large;
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 30px;
+    width: 80%;
 }
 
 @media (min-width: 500px) {
     button{
+        font-size: 80%;
+        margin-left: 5%;
         float: center;
-        width: 30%;
+        width: 90%;
     }
 }
 
 @media (min-width: 600px) {
     button{
+        font-size: 80%;
+        margin-left: 5%;
+        float: center;
         width: 90%;
+
     }
 }
